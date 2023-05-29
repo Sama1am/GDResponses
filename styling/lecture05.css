@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #B7C4CF;
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding-bottom: 5%;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+   
+}
+
+
+.backButton05{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+.mainP{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    text-align: justify;
+    
+    z-index: 2;
+}
+
+
+
+.btn{
+    background-color: #EEE3CB;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    transform: translate(10%, 10%);
+}
+  
+.btn:hover {
+    background-color: #D7C0AE;
+}
+  
+.btn:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.h_line{
+    border-bottom: 10px solid rgb(0, 0, 0);
+    width: 500px;
+    margin: auto;
+    padding-top: 0%;
+    z-index: 0;
+    transform: translate(0px, -25px);
+    
+    
+}
+
+
+.game{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2%;
+    align-content: center;
+    align-items: center;
+}
+
+.cookie{
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    transform: translate(0px, 0px);
+    
+    
+}
+
+.cookieTracker{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
