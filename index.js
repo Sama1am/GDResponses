@@ -10,7 +10,6 @@ const mainRouter = require("./routes/mainRoute");
 const lectureRouter = require("./routes/lectureRoute");
 const path = require("path");
 
-const hostname = '127.0.0.1';
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -31,6 +30,6 @@ app.use(express.static(__dirname + "/pictures/"));
 
 let server = http.createServer(app);
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running at http://${"127.0.0.1"}:${port}/`);
 });
