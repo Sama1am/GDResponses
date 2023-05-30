@@ -52,16 +52,29 @@ const grandmaUpgrade ={
     multiplier: 1.5
 }
 
+const farms = {
+    price: 1100,
+    cookiesPerSec: 8,
+    count: 0,
+    has: false,
+    multiplier: 1.2
+}
+
+const farmUpgrade ={
+    price: 11000,
+    multiplier: 1.5
+}
+
 const factories = {
-    price: 1000,
-    cookiePerSec: 0,
+    price: 12000,
+    cookiePerSec: 47,
     count: 0,
     has: false,
     multiplier: 1.2
 }
 
 const factoryUpgrade ={
-    price: 5000,
+    price: 120000,
     multiplier: 1.5
 }
 
@@ -74,7 +87,8 @@ function displayScore(){
 }
 
 function displayCookiesPerSec(){
-    let x = (cursor.cookiesPerSec * cursor.count) + (grandmas.cookiePerSec * grandmas.count) + (factories.cookiePerSec * factories.count);
+   let x = (cursor.cookiesPerSec * cursor.count) + (grandmas.cookiePerSec * grandmas.count) + (factories.cookiePerSec * factories.count);
+   console.log(x);
     cookiesPerSec.innerHTML = "Cookies per second: " + parseFloat(x);
 }
 
@@ -82,7 +96,6 @@ function increaseScore(){
     state.cookieCount += state.clicks;
     displayScore();
 }
-
 
 //buy buttons
 constantClickerBtn.addEventListener("click", function(){
@@ -110,10 +123,12 @@ buyGrandmaBtn.addEventListener("click", function(){
         grandmas.count ++;
         grandmas.price *= grandmas.multiplier;
         grandmas.price = Math.ceil(grandmas.price);
+        console.log(grandmas);
     }
 });
 
 buyFactoryBtn.addEventListener("click", function(){
+    console.log("clicked");
     if(state.cookieCount >= factories.price){
         state.cookieCount -= factories.price;
         displayScore();
@@ -124,6 +139,7 @@ buyFactoryBtn.addEventListener("click", function(){
         factories.count ++;
         factories.price *= factories.multiplier;
         factories.price = Math.ceil(factories.price);
+        console.log(factories);
     }
 });
 
@@ -158,7 +174,7 @@ factoryUpgradeBtn.addEventListener("click", function(){
     if(state.cookieCount >= factoryUpgrade.price){
         state.cookieCount -= factoryUpgrade.price;
         displayScore();
-        displayCookiesPerSec()
+        displayCookiesPerSec();
         factories.cookiePerSec *= 2;
 
         factoryUpgrade.price *= factoryUpgrade.multiplier;
