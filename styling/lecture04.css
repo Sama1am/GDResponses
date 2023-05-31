@@ -18,6 +18,15 @@ h1{
     font-size: 85px;
 }
 
+h3{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 2%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
 
 .container{
     width: 100%;
@@ -31,7 +40,7 @@ h1{
     width: 100%;
     max-width: 540px;
     background: #CEE5D0;
-    margin: 100px auto 20px;
+    margin: 80px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
