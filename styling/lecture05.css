@@ -92,24 +92,26 @@ h1{
 
 
 .game{
-    position: absolute;
+    
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 20px;
     padding-top: 2%;
-    align-content: center;
-    align-items: center;
-    transform: translate(45%, 0);
     padding-bottom: 10%;
-
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.gameTitle{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 .cookie{
-    width: 50vw;
-    height: 60vh;
-    text-align: center;
+    width: 18vw;
+    height: 35vh;
     
 }
 
@@ -159,29 +161,34 @@ h1{
 .row{
     justify-content: center;
     display: flex;
-    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: row;
+    /* box-sizing: border-box; */
 }   
   
-.column{
-    float: left;
+.coloumn1{
+    width: 20%;
+    /* padding: 100%; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.coloumn2{
+    float: center;
     width: 25%;
-    padding: 20px;
+    /* padding: 100%; */
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     text-align: justify;
-    
+    padding: 3%;
 }
 
-.bibliography{
+.coloumn3{
+    float: right;
+    width: 25%;
+    /* padding: 100%; */
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 23px;
-    padding-top: 3%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 5%;
+    font-size: 25px;
     text-align: justify;
-    
-    z-index: 2;
-    padding-top: 35%;
+    padding: 3%;
 }
