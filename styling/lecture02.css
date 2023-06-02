@@ -65,7 +65,8 @@ body{
     height: 1048px;
     left: -8px;
     top: -24px;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .clouds{
