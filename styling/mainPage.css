@@ -178,6 +178,30 @@ button{
       left: -82px;
       top: 757px;
     }
+
+    .button01:hover{
+      top: 270px;
+      
+    }
+    
+    .button02:hover{
+      top: 370px;
+      
+    }
+    
+    .button03:hover{
+      top: 485px;
+      
+    } 
+    
+    .button04:hover{
+      top: 600px;
+      
+    }
+    
+    .button05:hover{
+      top: 715px;
+    }
 }
 
 .button06{
