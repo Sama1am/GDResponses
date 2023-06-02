@@ -19,7 +19,7 @@ h1{
   padding-left: 25%;
   padding-right: 25%;
   position: absolute;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
 }
 
 html {
@@ -31,10 +31,12 @@ html {
 .game {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 215%;
-  
+  left: 35%;
+  align-items: center;
+  padding-top: 85%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .Name{
