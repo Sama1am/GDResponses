@@ -140,6 +140,30 @@ button{
       left: -50px;
       top: 595px;
     }
+
+    .button01:hover{
+      top: 230px;
+      
+    }
+    
+    .button02:hover{
+      top: 315px;
+      
+    }
+    
+    .button03:hover{
+      top: 400px;
+      
+    } 
+    
+    .button04:hover{
+      top: 485px;
+      
+    }
+    
+    .button05:hover{
+      top: 575px;
+    }
 } 
 
 /* @media only screen and (min-width: 1700px){
@@ -242,19 +266,6 @@ button{
       top: 715px;
     }
 }
-
-.button06{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* left: -1px;
-  top: 883px; */
-  overflow: hidden;
-
-  transition: top 0.5s ease-in-out;
-  
-}
-
 
 
 .button01:hover{
