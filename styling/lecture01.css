@@ -52,7 +52,7 @@ div{
   text-align: center;
   object-fit: cover;
   height: auto; 
-  max-width: 65%;
+  width: 65vw;
   user-select: none;
   position: absolute;
   transform: translate(0px, -55px);
@@ -73,7 +73,7 @@ div{
 .imgBL{
   user-select: none;
   height: auto;
-  width: 100%;
+  width: 24vw;
   
 }
 
@@ -129,7 +129,7 @@ div{
   text-align: center;
   user-select: none;
   height: auto;
-  width: 90%;
+  width: 95vw;
   padding-bottom: 2%;
 }
 
