@@ -107,37 +107,37 @@ button{
 /*average screens*/
 @media only screen and (min-width: 1500px) {
     .button01{
-      width: 125vw;
-      height: 95vh;
-      left: -82px;
+      width: 110vw;
+      height: 85vh;
+      left: -10px;
       top: 245px;
     }
 
     .button02{
-      width: 125vw;
-      height: 80vh;
-      left: -82px;
+      width: 110vw;
+      height: 75vh;
+      left: -50px;
       top: 330px;
     }
 
     .button03{
-      width: 125vw;
-      height: 60vh;
-      left: -82px;
+      width: 110vw;
+      height: 55vh;
+      left: -50px;
       top: 420px;
     }
 
     .button04{
-      width: 125vw;
-      height: 50vh;
-      left: -82px;
+      width: 110vw;
+      height: 40vh;
+      left: -50px;
       top: 505px;
     }
 
     .button05{
-      width: 125vw;
-      height: 35vh;
-      left: -82px;
+      width: 110vw;
+      height: 30vh;
+      left: -50px;
       top: 595px;
     }
 } 
