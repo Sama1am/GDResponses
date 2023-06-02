@@ -46,10 +46,10 @@ button{
   align-self: center;
 
   position: absolute;
-  width: 111vw;
-  height: 85vh;
+  width: 120vw;
+  height: 105vh;
   left: -10px;
-  top: 280px;
+  top: 240px;
 
   
 }
@@ -60,10 +60,10 @@ button{
   transition: top 0.5s ease-in-out;
 
   position: absolute;
-  width: 111vw;
-  height: 75vh;
+  width: 120vw;
+  height: 90vh;
   left: -10px;
-  top: 355px;
+  top: 330px;
   
 
   
@@ -72,10 +72,10 @@ button{
 .button03{
   
   position: absolute;
-  width: 111vw;
-  height: 60vh;
+  width: 120vw;
+  height: 70vh;
   left: -10px;
-  top: 430px;
+  top: 420px;
 
   transition: top 0.5s ease-in-out;
 
@@ -84,10 +84,10 @@ button{
 
 .button04{
   position: absolute;
-  width: 111vw;
-  height: 45vh;
+  width: 120vw;
+  height: 55vh;
   left: -10px;
-  top: 505px;
+  top: 510px;
 
   transition: top 0.5s ease-in-out;
 
@@ -96,10 +96,10 @@ button{
 
 .button05{
   position: absolute;
-  width: 111vw;
-  height: 35vh;
-  left: -10px;
-  top: 585px;
+  width: 120vw;
+  height: 40vh;
+  left: -63px;
+  top: 605px;
 
   transition: top 0.5s ease-in-out;
 
@@ -120,17 +120,17 @@ button{
 }
 
 .button01:hover{
-  top: 250px;
+  top: 220px;
   
 }
 
 .button02:hover{
-  top: 325px;
+  top: 300px;
   
 }
 
 .button03:hover{
-  top: 400px;
+  top: 390px;
   
 } 
 
@@ -140,7 +140,7 @@ button{
 }
 
 .button05:hover{
-  top: 555px;
+  top: 565px;
 }
 
 
