@@ -142,6 +142,45 @@ button{
     }
 } 
 
+/* @media only screen and (min-width: 1700px){
+  .button01{
+    width: 135vw;
+    height: 90vh;
+    left: -125px;
+    top: 240px;
+  }
+
+  .button02{
+    width: 135vw;
+    height: 80vh;
+    left: -210px;
+    top: 330px;
+  }
+
+  .button03{
+    width: 135vw;
+    height: 65vh;
+    left: -220px;
+    top: 425px;
+  }
+
+  .button04{
+    width: 135vw;
+    height: 52vh;
+    left: -200px;
+    top: 525px;
+  }
+
+  .button05{
+    width: 135vw;
+    height: 37vh;
+    left: -250px;
+    top: 625px;
+  }
+
+
+} */
+
 /*large screens*/
 @media only screen and (min-width: 1900px) {
     .button01{
