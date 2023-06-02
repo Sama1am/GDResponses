@@ -46,8 +46,8 @@ button{
   align-self: center;
 
   position: absolute;
-  width: 120vw;
-  height: 95vh;
+  width: 122vw;
+  height: 100vh;
   left: -10px;
   top: 240px;
 
@@ -60,8 +60,8 @@ button{
   transition: top 0.5s ease-in-out;
 
   position: absolute;
-  width: 120vw;
-  height: 80vh;
+  width: 122vw;
+  height: 85vh;
   left: -10px;
   top: 330px;
   
@@ -72,8 +72,8 @@ button{
 .button03{
   
   position: absolute;
-  width: 120vw;
-  height: 60vh;
+  width: 122vw;
+  height: 65vh;
   left: -10px;
   top: 420px;
 
@@ -84,8 +84,8 @@ button{
 
 .button04{
   position: absolute;
-  width: 120vw;
-  height: 45vh;
+  width: 122vw;
+  height: 50vh;
   left: -10px;
   top: 510px;
 
@@ -96,8 +96,8 @@ button{
 
 .button05{
   position: absolute;
-  width: 120vw;
-  height: 30vh;
+  width: 122vw;
+  height: 38vh;
   left: -63px;
   top: 605px;
 
